@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*flex positioning*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+.wrapper{
+  display:flex;
+  justify-content: center;
+}
+
+.item{
+  flex-basis: 200px;
+  margin-left: 52px;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+.item div{
+  text-align: center;
+  margin: 8px;
+}
