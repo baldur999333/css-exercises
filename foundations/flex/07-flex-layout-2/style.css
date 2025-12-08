@@ -27,3 +27,110 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*footer positioning*/
+/*body{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  font-weight: 900;
+  font-size: 32px;
+  display:flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.middle{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{ 
+  flex: none;
+}
+
+li{
+  margin: 16px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+}*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 24px;
+}
+
+.header{
+  display: flex;
+  font-weight: 1000;
+  font-size: 32px;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.middle{
+  display: flex;
+  flex: 1;
+}
+
+.sidebar{
+  display: flex;
+  flex: 1 0 300px;
+  padding: 16px;
+}
+li{
+  margin-bottom: 16px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 48px;
+  gap: 32px;
+}
+
+.card{
+
+  flex: 1 0 300px;
+  padding: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
